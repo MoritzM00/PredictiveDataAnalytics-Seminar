@@ -1,0 +1,38 @@
+[tool.poetry]
+name = "PredictiveDataAnalytics-Seminar"
+version = "0.1.0"
+description = "Code for the Predictive Data Analytics Seminar"
+authors = ["Moritz Mistol <moritz.mistol@gmail.com>"]
+readme = "README.md"
+documentation = "https://MoritzM00.github.io/PredictiveDataAnalytics-Seminar"
+repository = "https://github.com/MoritzM00/PredictiveDataAnalytics-Seminar"
+license = "MIT"
+keywords = ["Python", "Poetry"]
+packages = [
+    { include = "src" },
+]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+
+
+[tool.poetry.group.dev.dependencies]
+pytest = ">=7.2.2"
+pre-commit = ">=3.1.1"
+pdoc3 = ">=0.10.0"
+black = "^23.1.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.black]
+line-length = 88
+
+[tool.isort]
+profile = "black"
+line_length = 88
+
+[tool.pytest.ini_options]
+addopts = "-ra"
+testpaths = ["tests"]
