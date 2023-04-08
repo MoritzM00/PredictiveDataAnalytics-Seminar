@@ -1,5 +1,5 @@
 [core]
     remote = b2
 ['remote "b2"']
-    url = s3://backblaze-moritz/
-    endpointurl = s3.eu-central-003.backblazeb2.com
+    url = s3://blackbaze-moritz/
+    endpointurl = https://s3.eu-central-003.backblazeb2.com

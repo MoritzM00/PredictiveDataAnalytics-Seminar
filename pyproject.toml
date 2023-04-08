@@ -14,7 +14,7 @@ packages = [
 
 [tool.poetry.dependencies]
 python = "^3.9"
-dvc = "^2.53.0"
+dvc = {extras = ["s3"], version = "^2.53.0"}
 
 
 [tool.poetry.group.dev.dependencies]
