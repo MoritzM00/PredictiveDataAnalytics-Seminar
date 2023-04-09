@@ -2312,17 +2312,6 @@ files = [
 ]
 
 [[package]]
-name = "keras"
-version = "2.12.0"
-description = "Deep learning for humans."
-category = "main"
-optional = false
-python-versions = ">=3.8"
-files = [
-    {file = "keras-2.12.0-py2.py3-none-any.whl", hash = "sha256:35c39534011e909645fb93515452e98e1a0ce23727b55d4918b9c58b2308c15e"},
-]
-
-[[package]]
 name = "kiwisolver"
 version = "1.4.4"
 description = "A fast implementation of the Cassowary constraint solver"
@@ -4879,4 +4868,4 @@ testing = ["big-O", "flake8 (<5)", "jaraco.functools", "jaraco.itertools", "more
 [metadata]
 lock-version = "2.0"
 python-versions = ">3.9,<3.12"
-content-hash = "cc70394a4f049ac17c922a21794539d48e2263b1f80a8b6e8a73f5b6bc56336d"
+content-hash = "cfb612291ae592054acb6a5ba60d16b2d701498b202149eb4225ecc1c35adf2e"
