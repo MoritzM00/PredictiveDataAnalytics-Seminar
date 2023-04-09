@@ -13,8 +13,13 @@ packages = [
 ]
 
 [tool.poetry.dependencies]
-python = "^3.9"
+python = ">3.9,<3.12"
 dvc = {extras = ["s3"], version = "^2.53.0"}
+jupyter = "^1.0.0"
+matplotlib = "^3.7.1"
+scikit-learn = "^1.2.2"
+seaborn = "^0.12.2"
+pandas = "^2.0.0"
 
 
 [tool.poetry.group.dev.dependencies]
