@@ -7,7 +7,7 @@ install:
 	poetry run pre-commit install
 
 activate:
-	poetry shell
+	conda activate seminar
 
 setup: initialize_git install
 

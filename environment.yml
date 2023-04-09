@@ -1,0 +1,11 @@
+name: seminar
+
+channels:
+  - conda-forge
+  - nodefaults
+
+dependencies:
+  - python=3.10.*
+  - tensorflow=2.12.*
+  - keras=2.12.*
+  - cartopy=0.21.*

@@ -12,25 +12,17 @@
 
 ## Quick Start
 
-Below you can find the quick start guide for development.
+Activate the environment first:
 
-### Set up the environment
-
-1. Install [Poetry](https://python-poetry.org/docs/#installation)
-2. Set up the environment:
-
-```bash
-make setup
-make activate
+```
+conda activate seminar
 ```
 
-### Additional first-time setup
+then run,
 
-1. After setting up the environment, commit the `poetry.lock` file to your repository, so that the workflow on github can use it.
-2. Enable [Pre-Commit CI](https://pre-commit.ci/) for your repository.
-3. Enable **Github Pages** for your documentation.
-   To do that, go to the _Settings_ tab of your repository and scroll down to the _GitHub Pages_ section.
-   For the _Source_ option, select _GitHub Action_. Done!
+```bash
+poetry install
+```
 
 ### Install new packages
 
