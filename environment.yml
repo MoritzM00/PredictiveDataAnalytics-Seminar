@@ -6,6 +6,6 @@ channels:
 
 dependencies:
   - python=3.10.*
-  - tensorflow=2.12.*
-  - keras=2.12.*
+  - tensorflow=2.*
+  - keras=2.*
   - cartopy=0.21.*
