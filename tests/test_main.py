@@ -1,4 +1,5 @@
 """Test the `main` module."""
+
 from src.main import say_hello
 
 
